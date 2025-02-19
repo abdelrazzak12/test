@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Master</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="task">Task Master</h1>
+        <p>Organize your tasks efficiently</p>
+                <input type="text" id="search" placeholder="Search tasks...">
+                    <select id="filter">
+                        <option value="all">all task</option>
+                        <option value="pend">pending</option>
+                        <option value="comp">completed</option>
+            
+                    </select>
+            <button id="clear-all">clear all</button>
+        </section>
+       
+        <div class="search1">
+            <input type="text" id="task-input" placeholder="What needs to be done?">
+            <button id="add-task">add task</button>
+        </div>
+        <div class="task-list">
+            <p id="no-tasks-message">No tasks found.Add some tasks to get started!</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
